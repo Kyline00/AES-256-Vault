@@ -1,0 +1,38 @@
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/dist/
+
+# 测试与缓存
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+
+# 打包产物（保留 build 脚本，不提交打包结果）
+# build/ 目录保留 spec 与脚本，仅忽略 dist
+**/dist/
+
+# 本地 / 备份（不上传）
+*.zip
+python/
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+*.log
